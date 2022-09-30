@@ -1,0 +1,114 @@
+body {
+    font-family: monospace;
+    margin: 0;
+}
+
+
+
+.globalc {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1% 14% 40% 45%;
+    grid-template-rows: 100%;
+    background-color: brown;
+    color: white;
+    border-top: 1vh dimgrey solid;
+    border-bottom: 1vh dimgrey solid;
+    border-left: 1vw dimgrey solid;
+    border-right: 1vw dimgrey solid;
+    padding:5px;
+    grid-column-gap: 30px;
+}
+
+
+h1{
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+
+ul {
+    font-size: 25px;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 15px;
+}
+progress {
+    accent-color: brown;
+}
+
+
+.Logo {
+    border-radius: 50%;
+    width: 95%;
+    border: 6px solid grey;
+    box-shadow: 0px 5px 25px  black;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+}
+
+.faside {
+    background-color: dimgrey;
+    color:  white;
+    padding: 25px;
+}
+
+.faside2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color:  white;
+    padding: 25px;
+}
+
+h5 {
+    margin: 5px;
+}
+
+.h5i {
+    color: black;
+    font-size: 25px;
+}
+
+.h4i {
+    display: inline;
+    background-color: brown;
+    padding: 5px;
+}
+
+.skillc2 {
+    padding: 100px;
+}
+
+li::marker {
+    content: "";
+}
+
+.marker {
+    width: 20px;
+    height: 20px;
+    filter: invert();
+}
+
+li {
+    margin-bottom: 20px;
+}
